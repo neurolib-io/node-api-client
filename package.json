@@ -1,0 +1,36 @@
+{
+  "name": "neurolib-api-client",
+  "version": "3.2.0",
+  "description": "Node.js client (SDK) for easy use of the Neurolib recommendation API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neurolib-io/node-api-client.git"
+  },
+  "keywords": [
+    "neurolib",
+    "recommendation engine",
+    "recommender engine",
+    "recommender as a service",
+    "machine learning",
+    "API",
+    "SDK"
+  ],
+  "author": "Neurolib <tech@neurolib.io> (https://www.neurolib.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neurolib-io/node-api-client/issues"
+  },
+  "homepage": "https://github.com/neurolib-io/node-api-client#readme",
+  "dependencies": {
+    "request-promise": "^4.2.5",
+    "request": "^2.88.0",
+    "jssha": "^2.3.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
+}
